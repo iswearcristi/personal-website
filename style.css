@@ -1,0 +1,153 @@
+html{
+    overflow: hidden;
+}
+::selection {
+    background-color: rgba(13, 13, 13, 0.5);  
+}
+::-moz-selection {
+    background-color: rgba(13, 13, 13, 0.5);  
+}
+body{
+    height: 100vh;    
+}
+.container {
+    margin: 0 auto;
+    max-width: 2500px;
+    width: 100%;
+}
+
+h1{
+    margin: 0;
+    font-size: 5em;
+}
+
+.col.s12{
+    height: 25vh;
+}
+
+.q{
+    height: 25vh;
+    margin: 0;
+}
+
+#title{
+    font-family: 'Karla', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    transition: 0.2s ease;
+    margin-bottom: 0;
+}
+
+.text{
+    margin: 0;
+}
+
+#NetRealm{
+    font-family: 'Space Mono', monospace;
+    /* color: #0099ff; */
+    background: -webkit-linear-gradient(270deg, #0099ff, blue 1000%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: grayscale(100%);
+    transition: 0.2s ease;
+}
+#NetRealm:hover{
+    filter: grayscale(0%);
+}
+
+#Debatyr{
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+    filter: grayscale(100%);
+    transition: 0.2s ease;
+}
+#Debatyr:hover{
+    filter: grayscale(0%);
+}
+
+#CP{
+    font-family: 'Poppins';
+    color: #fff;
+    background-color: #12232E;
+    filter: grayscale(100%);
+    transition: 0.2s ease;
+}
+
+#CP:hover{
+    filter: grayscale(0%);
+
+}
+
+.link{
+    color: white;
+    margin: 0.5em;
+}
+.i{
+    transition: 0.2s ease;
+}
+.link:hover .i{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 700px){
+    h1{
+        font-size: 4.5em;
+    }
+}
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 4em;
+    }
+}
+@media only screen and (max-width: 550px){
+    h1{
+        font-size: 3.5em;
+    }
+}
+@media only screen and (max-width: 475px){
+    h1{
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 425px){
+    h1{
+        font-size: 2.5em;
+    }
+}
+@media only screen and (max-width: 350px){
+    h1{
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width: 275px){
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+
+.links{
+    font-family: 'Karla', sans-serif;
+    z-index: 10;
+    font-size: 2rem;
+    color: #fff;
+    overflow: hidden;
+    padding: 7px;
+    margin: 0px;
+    right: 7px;
+    position: fixed;
+}
+
+.ai{
+    color: #fff;
+}
+
+.i{
+    transition: 0.2s ease;
+}
+
+.ai:hover .i{
+    transform: scale(1.1);
+}
